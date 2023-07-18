@@ -9,10 +9,7 @@ import br.com.mcoder.dao.IProdutoDAO;
 import br.com.mcoder.domain.Produto;
 import br.com.mcoder.exceptions.TipoChaveNaoEncontradaException;
 
-/**
- * @author rodrigo.pires
- *
- */
+
 public class ProdutoDaoMock implements IProdutoDAO {
 
 	@Override

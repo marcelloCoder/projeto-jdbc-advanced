@@ -15,10 +15,6 @@ import br.com.mcoder.exceptions.TipoChaveNaoEncontradaException;
 import br.com.mcoder.services.ClienteService;
 import br.com.mcoder.services.IClienteService;
 
-/**
- * @author rodrigo.pires
- *
- */
 public class ClienteServiceTest {
 	
 	private IClienteService clienteService;

@@ -7,10 +7,6 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
-/**
- * @author rodrigo.pires
- *
- */
 public class ConnectionFactory {
 	
 	private static Connection connection;
@@ -34,7 +30,7 @@ public class ConnectionFactory {
 	private static Connection initConnection() {
         try {
             return DriverManager.getConnection(
-            		"jdbc:postgresql://localhost:15432/vendas_online_2", "postgres", "admin");
+            		"jdbc:postgresql://localhost:15432/vendas_online", "postgres", "admin");
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }

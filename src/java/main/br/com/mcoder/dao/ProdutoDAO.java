@@ -9,10 +9,7 @@ import java.sql.SQLException;
 import br.com.mcoder.dao.generic.GenericDAO;
 import br.com.mcoder.domain.Produto;
 
-/**
- * @author rodrigo.pires
- *
- */
+
 public class ProdutoDAO extends GenericDAO<Produto, String> implements IProdutoDAO {
 	
 	public ProdutoDAO() {

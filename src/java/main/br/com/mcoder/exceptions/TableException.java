@@ -3,10 +3,7 @@
  */
 package br.com.mcoder.exceptions;
 
-/**
- * @author rodrigo.pires
- *
- */
+
 public class TableException extends Exception {
 
 	

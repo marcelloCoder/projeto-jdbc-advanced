@@ -17,10 +17,6 @@ import br.com.mcoder.exceptions.TipoChaveNaoEncontradaException;
 import br.com.mcoder.services.IProdutoService;
 import br.com.mcoder.services.ProdutoService;
 
-/**
- * @author rodrigo.pires
- *
- */
 public class ProdutoServiceTest {
 
 	private IProdutoService produtoService;

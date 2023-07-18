@@ -3,9 +3,7 @@ package br.com.mcoder.dao.generic;
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- * @author rodrigo.pires
- *
+/*
  * Classe Singleton que garante que o <code>map</code> será único em toda a vita da aplicação.
  *
  */

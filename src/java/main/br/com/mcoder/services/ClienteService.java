@@ -11,10 +11,7 @@ import br.com.mcoder.exceptions.TableException;
 import br.com.mcoder.exceptions.TipoChaveNaoEncontradaException;
 import br.com.mcoder.services.generic.GenericService;
 
-/**
- * @author rodrigo.pires
- *
- */
+
 public class ClienteService extends GenericService<Cliente, Long> implements IClienteService {
 	
 	//private IClienteDAO clienteDAO;

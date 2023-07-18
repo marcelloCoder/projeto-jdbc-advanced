@@ -13,10 +13,6 @@ import br.com.mcoder.exceptions.MaisDeUmRegistroException;
 import br.com.mcoder.exceptions.TableException;
 import br.com.mcoder.exceptions.TipoChaveNaoEncontradaException;
 
-/**
- * @author rodrigo.pires
- *
- */
 public abstract class GenericService<T extends Persistente, E extends Serializable> 
 	implements IGenericService<T, E> {
 	

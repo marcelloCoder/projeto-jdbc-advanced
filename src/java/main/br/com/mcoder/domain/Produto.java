@@ -10,10 +10,6 @@ import anotacao.Tabela;
 import anotacao.TipoChave;
 import br.com.mcoder.dao.Persistente;
 
-/**
- * @author rodrigo.pires
- *
- */
 @Tabela("TB_PRODUTO")
 public class Produto implements Persistente {
 	

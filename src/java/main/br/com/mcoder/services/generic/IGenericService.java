@@ -10,10 +10,6 @@ import br.com.mcoder.dao.Persistente;
 import br.com.mcoder.exceptions.DAOException;
 import br.com.mcoder.exceptions.TipoChaveNaoEncontradaException;
 
-/**
- * @author rodrigo.pires
- *
- */
 public interface IGenericService <T extends Persistente, E extends Serializable> {
 	
 	/**

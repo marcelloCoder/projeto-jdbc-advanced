@@ -8,10 +8,6 @@ import java.sql.SQLException;
 
 import br.com.mcoder.domain.Produto;
 
-/**
- * @author rodrigo.pires
- *
- */
 public class ProdutoFactory {
 
 	

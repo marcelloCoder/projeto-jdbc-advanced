@@ -10,10 +10,6 @@ import br.com.mcoder.domain.Cliente;
 import br.com.mcoder.domain.Venda;
 import br.com.mcoder.domain.Venda.Status;
 
-/**
- * @author rodrigo.pires
- *
- */
 public class VendaFactory {
 
 	public static Venda convert(ResultSet rs) throws SQLException {
