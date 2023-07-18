@@ -30,6 +30,7 @@ public class ClienteDAO extends GenericDAO<Cliente, Long> implements IClienteDAO
 		entityCadastrado.setNome(entity.getNome());
 		entityCadastrado.setNumero(entity.getNumero());
 		entityCadastrado.setTel(entity.getTel());
+		entityCadastrado.setSexo(entity.getSexo());
 		
 	}
 
@@ -37,8 +38,8 @@ public class ClienteDAO extends GenericDAO<Cliente, Long> implements IClienteDAO
 	protected String getQueryInsercao() {
 		StringBuilder sb = new StringBuilder();
 		sb.append("INSERT INTO TB_CLIENTE ");
-		sb.append("(ID, NOME, CPF, TEL, ENDERECO, NUMERO, CIDADE, ESTADO)");
-		sb.append("VALUES (nextval('sq_cliente'),?,?,?,?,?,?,?)");
+		sb.append("(ID, NOME, CPF, TEL, ENDERECO, NUMERO, CIDADE, ESTADO, SEXO)");
+		sb.append("VALUES (nextval('sq_cliente'),?,?,?,?,?,?,?,?)");
 		return sb.toString();
 	}
 
