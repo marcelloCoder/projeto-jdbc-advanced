@@ -52,6 +52,7 @@ public class ClienteDAO extends GenericDAO<Cliente, Long> implements IClienteDAO
 		stmInsert.setLong(5, entity.getNumero());
 		stmInsert.setString(6, entity.getCidade());
 		stmInsert.setString(7, entity.getEstado());
+		stmInsert.setString(8, entity.getSexo());
 		
 	}
 
@@ -74,7 +75,8 @@ public class ClienteDAO extends GenericDAO<Cliente, Long> implements IClienteDAO
 		sb.append("ENDERECO = ?,");
 		sb.append("NUMERO = ?,");
 		sb.append("CIDADE = ?,");
-		sb.append("ESTADO = ?");
+		sb.append("ESTADO = ?,");
+		sb.append("SEXO = ?");
 		sb.append(" WHERE CPF = ?");
 		return sb.toString();
 	}
@@ -88,6 +90,7 @@ public class ClienteDAO extends GenericDAO<Cliente, Long> implements IClienteDAO
 		stmUpdate.setString(5, entity.getCidade());
 		stmUpdate.setString(6, entity.getEstado());
 		stmUpdate.setLong(7, entity.getCpf());
+		stmUpdate.setString(8, entity.getSexo());
 	}
 
 	@Override
